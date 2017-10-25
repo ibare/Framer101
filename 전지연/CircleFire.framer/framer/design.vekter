@@ -1,0 +1,165 @@
+{
+  "version" : 10,
+  "root" : {
+    "id" : "FU:Mo>WR",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "ngj$p}0-",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "FU:Mo>WR",
+        "exportOptions" : [
+
+        ],
+        "width" : 375,
+        "y" : 0,
+        "deviceType" : "apple-iphone-7-black",
+        "type" : "apple-iphone-7-black",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "exportEnabled" : false,
+        "children" : [
+          {
+            "rotation" : 0,
+            "blurType" : "layer",
+            "exportEnabled" : false,
+            "id" : "g*1UqPt7",
+            "saturateEnabled" : 0,
+            "fillColor" : "rgb(0, 170, 255)",
+            "aspectRatioLocked" : true,
+            "grayscale" : 0,
+            "hueRotateEnabled" : 0,
+            "__class" : "OvalNode",
+            "widthFactor" : null,
+            "borderColor" : "#222",
+            "clip" : false,
+            "opacity" : 1,
+            "left" : null,
+            "locked" : false,
+            "fillGradient" : {
+              "end" : "rgba(0,0,0,0)",
+              "alpha" : 1,
+              "angle" : 0,
+              "__class" : "LinearGradient",
+              "start" : "black"
+            },
+            "contrastEnabled" : 0,
+            "blendingMode" : "normal",
+            "invert" : 0,
+            "boxShadows" : [
+
+            ],
+            "centerAnchorX" : 0.5,
+            "blurEnabled" : 0,
+            "fillType" : "color",
+            "sepia" : 0,
+            "children" : [
+
+            ],
+            "fillEnabled" : true,
+            "parentid" : "ngj$p}0-",
+            "brightnessEnabled" : 0,
+            "exportOptions" : [
+
+            ],
+            "name" : "circle",
+            "saturate" : 100,
+            "height" : 95,
+            "borderStyle" : "solid",
+            "borderWidth" : 1,
+            "top" : 166,
+            "borderEnabled" : 0,
+            "constraintsLocked" : false,
+            "right" : null,
+            "visible" : true,
+            "centerAnchorY" : 0.3200899550224888,
+            "contrast" : 100,
+            "grayScaleEnabled" : 0,
+            "hueRotate" : 0,
+            "heightFactor" : null,
+            "targetName" : "circle",
+            "bottom" : null,
+            "blur" : 12,
+            "invertEnabled" : 0,
+            "sepiaEnabled" : 0,
+            "width" : 95,
+            "brightness" : 100
+          },
+          {
+            "rotation" : 0,
+            "blurType" : "layer",
+            "exportEnabled" : false,
+            "id" : "t<$SG-D)",
+            "svg" : "<?xml version=\"1.0\"?><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M3 4V1h2v3h3v2H5v3H3V6H0V4h3zm3 6V7h3V4h7l1.83 2H21c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H5c-1.1 0-2-.9-2-2V10h3zm7 9c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5zm-3.2-5c0 1.77 1.43 3.2 3.2 3.2s3.2-1.43 3.2-3.2-1.43-3.2-3.2-3.2-3.2 1.43-3.2 3.2z\"><\/path><\/svg>",
+            "fillColor" : "rgb(168, 168, 168)",
+            "aspectRatioLocked" : true,
+            "grayscale" : 0,
+            "hueRotateEnabled" : 0,
+            "saturateEnabled" : 0,
+            "widthFactor" : null,
+            "opacity" : 1,
+            "contrastEnabled" : 0,
+            "locked" : false,
+            "left" : null,
+            "__class" : "SVGNode",
+            "fillGradient" : {
+              "end" : "rgba(0,0,0,0)",
+              "alpha" : 1,
+              "angle" : 0,
+              "__class" : "LinearGradient",
+              "start" : "black"
+            },
+            "blendingMode" : "normal",
+            "invert" : 0,
+            "sepia" : 0,
+            "centerAnchorX" : 0.5,
+            "blurEnabled" : 0,
+            "fillType" : "color",
+            "shadows" : [
+
+            ],
+            "parentid" : "ngj$p}0-",
+            "brightnessEnabled" : 0,
+            "exportOptions" : [
+
+            ],
+            "name" : "fire",
+            "saturate" : 100,
+            "height" : 45,
+            "top" : 306,
+            "intrinsicWidth" : 24,
+            "originalFilename" : "add_a_photo",
+            "constraintsLocked" : false,
+            "right" : null,
+            "visible" : true,
+            "centerAnchorY" : 0.4925037481259371,
+            "contrast" : 100,
+            "grayScaleEnabled" : 0,
+            "intrinsicHeight" : 24,
+            "heightFactor" : null,
+            "hueRotate" : 0,
+            "targetName" : "fire",
+            "bottom" : null,
+            "blur" : 12,
+            "invertEnabled" : 0,
+            "sepiaEnabled" : 0,
+            "width" : 45,
+            "brightness" : 100
+          }
+        ],
+        "height" : 667,
+        "fillType" : "color",
+        "targetName" : null,
+        "fillColor" : "#ffffff",
+        "name" : null
+      }
+    ]
+  }
+}
