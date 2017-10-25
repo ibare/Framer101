@@ -12,7 +12,7 @@ Play.onClick (event, layer) ->
 	Blue.animate
 		y: 100
 		options:
-			time: 1
+			time: .6
 			curve: Spring
 			
 			
