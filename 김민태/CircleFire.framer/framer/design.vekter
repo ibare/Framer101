@@ -1,0 +1,163 @@
+{
+  "version" : 12,
+  "root" : {
+    "id" : "WRSDn2|q",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "%]yZ58Y_",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "WRSDn2|q",
+        "exportOptions" : [
+
+        ],
+        "width" : 320,
+        "y" : 0,
+        "exportIncludesBackground" : true,
+        "deviceType" : "apple-iphone-5s-space-gray",
+        "type" : "apple-iphone-5s-space-gray",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "children" : [
+          {
+            "rotation" : 0,
+            "blurType" : "layer",
+            "__class" : "OvalNode",
+            "id" : "3kN|@>=C",
+            "saturateEnabled" : 0,
+            "fillColor" : "rgba(0,170,255,0.5)",
+            "aspectRatioLocked" : true,
+            "grayscale" : 0,
+            "hueRotateEnabled" : 0,
+            "widthFactor" : null,
+            "borderColor" : "#222",
+            "clip" : false,
+            "opacity" : 1,
+            "left" : null,
+            "locked" : false,
+            "fillGradient" : {
+              "end" : "rgba(0,0,0,0)",
+              "alpha" : 1,
+              "angle" : 0,
+              "__class" : "LinearGradient",
+              "start" : "black"
+            },
+            "contrastEnabled" : 0,
+            "blendingMode" : "normal",
+            "invert" : 0,
+            "boxShadows" : [
+
+            ],
+            "centerAnchorX" : 0.5,
+            "blurEnabled" : 0,
+            "fillType" : "color",
+            "sepia" : 0,
+            "children" : [
+
+            ],
+            "fillEnabled" : true,
+            "parentid" : "%]yZ58Y_",
+            "brightnessEnabled" : 0,
+            "exportOptions" : [
+
+            ],
+            "name" : "circle",
+            "saturate" : 100,
+            "height" : 68,
+            "borderStyle" : "solid",
+            "borderWidth" : 1,
+            "top" : null,
+            "borderEnabled" : 0,
+            "constraintsLocked" : false,
+            "right" : null,
+            "visible" : true,
+            "centerAnchorY" : 0.6496478873239436,
+            "contrast" : 100,
+            "grayScaleEnabled" : 0,
+            "hueRotate" : 0,
+            "heightFactor" : null,
+            "targetName" : "circle",
+            "bottom" : 165,
+            "blur" : 12,
+            "invertEnabled" : 0,
+            "sepiaEnabled" : 0,
+            "width" : 68,
+            "brightness" : 100
+          },
+          {
+            "rotation" : 0,
+            "blurType" : "layer",
+            "__class" : "SVGNode",
+            "id" : "}FvfP$pg",
+            "svg" : "<?xml version=\"1.0\"?><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\"><path d=\"M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z\"><\/path><\/svg>",
+            "fillColor" : "black",
+            "aspectRatioLocked" : true,
+            "grayscale" : 0,
+            "hueRotateEnabled" : 0,
+            "saturateEnabled" : 0,
+            "widthFactor" : null,
+            "opacity" : 1,
+            "contrastEnabled" : 0,
+            "locked" : false,
+            "left" : null,
+            "fillGradient" : {
+              "end" : "rgba(0,0,0,0)",
+              "alpha" : 1,
+              "angle" : 0,
+              "__class" : "LinearGradient",
+              "start" : "black"
+            },
+            "blendingMode" : "normal",
+            "invert" : 0,
+            "sepia" : 0,
+            "centerAnchorX" : 0.5015625,
+            "blurEnabled" : 0,
+            "fillType" : "color",
+            "shadows" : [
+
+            ],
+            "parentid" : "%]yZ58Y_",
+            "brightnessEnabled" : 0,
+            "exportOptions" : [
+
+            ],
+            "name" : "fire",
+            "saturate" : 100,
+            "height" : 97,
+            "top" : null,
+            "intrinsicWidth" : 24,
+            "originalFilename" : "check_circle",
+            "constraintsLocked" : false,
+            "right" : null,
+            "visible" : true,
+            "centerAnchorY" : 0.8723591549295775,
+            "contrast" : 100,
+            "grayScaleEnabled" : 0,
+            "intrinsicHeight" : 24,
+            "heightFactor" : null,
+            "hueRotate" : 0,
+            "targetName" : "fire",
+            "bottom" : 24,
+            "blur" : 12,
+            "invertEnabled" : 0,
+            "sepiaEnabled" : 0,
+            "width" : 97,
+            "brightness" : 100
+          }
+        ],
+        "height" : 568,
+        "fillType" : "color",
+        "targetName" : null,
+        "fillColor" : "#ffffff",
+        "name" : null
+      }
+    ]
+  }
+}
