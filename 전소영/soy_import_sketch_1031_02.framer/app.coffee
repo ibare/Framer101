@@ -10,8 +10,8 @@ sketch.Status.visible = false
 sketch.Action.visible = false
 
 Action = sketch.Action
-
-
+Camera = sketch.Camera
+Camera.Close_Button = sketch.Close_Button
 
 sketch.Chat.x = 0
 sketch.Chat.y = 0
@@ -38,7 +38,7 @@ sketch.Action.onClick (event, layer) ->
 	sketch.Camera.x = 0
 	sketch.Camera.y = 0
 	
-sketch.Close_Button.onClick (event, layer) ->
+Camera.Close_Button.onClick (event, layer) ->
 	Phone.removeChild(sketch.Action)
 	sketch.Action.visible = false
 	
