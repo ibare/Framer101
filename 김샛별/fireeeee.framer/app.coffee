@@ -1,8 +1,4 @@
-fire.onClick (event, layer) ->
+# Import file "whats-app-ios-11-ramnan"
+sketch = Framer.Importer.load("imported/whats-app-ios-11-ramnan@2x", scale: 1)
 
-	circle.animate
-		y: 50
-		options:
-			time: 1
-			curve: Bezier.ease
-	
+sketch.Chat.visible = false
