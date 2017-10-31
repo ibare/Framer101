@@ -1,0 +1,39 @@
+{
+  "version" : 12,
+  "root" : {
+    "id" : "HUlozmes",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "i@V;C\/~^",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "HUlozmes",
+        "exportOptions" : [
+
+        ],
+        "width" : 411,
+        "y" : 0,
+        "exportIncludesBackground" : true,
+        "deviceType" : "google-nexus-6p",
+        "type" : "google-nexus-6p",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "children" : [
+
+        ],
+        "height" : 731,
+        "fillType" : "color",
+        "targetName" : "Phone",
+        "fillColor" : "#ffffff",
+        "name" : "Phone"
+      }
+    ]
+  }
+}

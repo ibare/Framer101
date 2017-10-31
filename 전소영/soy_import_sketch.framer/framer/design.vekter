@@ -20,6 +20,7 @@
         "blurType" : "layer",
         "fillColor" : "rgba(0,170,255,0.5)",
         "widthFactor" : null,
+        "blendingEnabled" : 0,
         "grayscale" : 0,
         "top" : 0,
         "saturate" : 100,
