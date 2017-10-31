@@ -6,11 +6,12 @@ sketch.Contacts.visible = false
 
 sketch.Reply_Message.x = Screen.width
 
-sketch.Reply_Message.animate
-	x: 100
-	options:
-		time: 1
-		curve: Bezier.ease
+Action.onClick (event, layer)->
+	sketch.Reply_Message.animate
+		x: 100
+		options:
+			time: 0.6
+			curve: Bezier.ease
 
 
 
