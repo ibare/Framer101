@@ -1,0 +1,22 @@
+{
+  "orientation" : 0,
+  "updateDelay" : 0.3,
+  "designModeSelected" : 0,
+  "cachedDeviceHeight" : 731.4285888671875,
+  "contentScale" : 1,
+  "cachedDeviceWidth" : 411.4285583496094,
+  "fullScreen" : false,
+  "deviceType" : "google-nexus-6p",
+  "sharedPrototype" : 0,
+  "propertyPanelToggleStates" : {
+    "Filters" : false
+  },
+  "projectId" : "AA46D858-6151-433F-919B-9E158677CE54",
+  "deviceOrientation" : 0,
+  "selectedHand" : "",
+  "showBezel" : 0,
+  "foldedCodeRanges" : [
+
+  ],
+  "deviceScale" : "fit"
+}
