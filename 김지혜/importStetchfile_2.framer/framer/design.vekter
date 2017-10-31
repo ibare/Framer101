@@ -1,0 +1,39 @@
+{
+  "version" : 12,
+  "root" : {
+    "id" : "PJDh>`_.",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "id" : "nv!QYAee",
+        "__class" : "FrameNode",
+        "x" : 0,
+        "parentid" : "PJDh>`_.",
+        "exportOptions" : [
+
+        ],
+        "width" : 375,
+        "y" : 0,
+        "exportIncludesBackground" : true,
+        "deviceType" : "apple-iphone-7-black",
+        "type" : "apple-iphone-7-black",
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "children" : [
+
+        ],
+        "height" : 667,
+        "fillType" : "color",
+        "targetName" : "Phone",
+        "fillColor" : "#ffffff",
+        "name" : "Phone"
+      }
+    ]
+  }
+}
