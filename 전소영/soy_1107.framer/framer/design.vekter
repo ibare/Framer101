@@ -13,10 +13,10 @@
         "exportOptions" : [
 
         ],
-        "width" : 320,
+        "width" : 375,
         "y" : 0,
         "exportIncludesBackground" : true,
-        "deviceType" : "apple-iphone-5s-space-gray",
+        "deviceType" : "apple-iphone-7-black",
         "type" : "apple-iphone-7-black",
         "fillGradient" : {
           "end" : "rgba(0,0,0,0)",
@@ -104,7 +104,7 @@
             "hueRotateEnabled" : 0
           }
         ],
-        "height" : 568,
+        "height" : 667,
         "fillType" : "color",
         "targetName" : "Phone",
         "fillColor" : "#ffffff",

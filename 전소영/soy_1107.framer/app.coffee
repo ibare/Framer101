@@ -15,8 +15,10 @@ Action = sketch.Action
 sketch.Camera.x = 0
 sketch.Camera.y = 0
 sketch.Action.x = 0
+sketch.Action.y = 0
 
 
+# 카메라 아이콘 클릭 시 Action 화면 호출
 Phone.addChild(sketch.Camera)
 
 sketch.Group_31.onClick (evnet, layer) -> 
@@ -25,11 +27,17 @@ sketch.Group_31.onClick (evnet, layer) ->
 	Action.opacity = .9
 	Action.x = 0
 	Action.y = 0
-	
+
+# Cancel 버튼 탭 시 Action 화면 닫기
+Cancel.x = (Screen.width/2)
+
 Cancel.onClick (event, layer) ->
 	Phone.addChild(sketch.Action)
 	Action.visible = false
-	
+
+# 아래 사진들 Scroll
+
+
 
 	
 
