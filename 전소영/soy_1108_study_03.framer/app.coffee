@@ -1,40 +1,57 @@
 
 Screen.backgroundColor = 'white'
 
-# 스크롤 컴포넌트는 좌라락~~스크롤 할때 쓴다.
-bestImage = new ScrollComponent
-	y: Align.top(200)
-	width: screen.width
-	height: 150
-	backgroundColor: 'white'
-	scrollVertical: false
+# 프로그레스 바
+progress = new Layer
+	y: Align.top(0)
+	width: 0
+	height: 3
+	backgroundColor: 'lightgreen'
+
+progress.animate
+	width: Screen.width
+	options: 
+		time: 2
+		curve: Bezier.linear
+
+Utils.delay 2, ->
+	progress.visible = false
 	
-for value in [0..20]
-	print value
-	box = new Layer
-		x: value * 150 + value * 10
-		width: 150
+	# 스크롤 컴포넌트는 좌라락~~스크롤 할때 쓴다.
+	bestImage = new ScrollComponent
+		y: Align.top(200)
+		width: screen.width
 		height: 150
-		borderRadius: 75
-		parent: bestImage.content
-		image: Utils.randomImage()
+		backgroundColor: 'white'
+		scrollVertical: false
+
+	
+	for value in [0..20]
+		print value
+		box = new Layer
+			x: value * 150 + value * 10
+			width: 150
+			height: 150
+			borderRadius: 75
+			parent: bestImage.content
+			image: Utils.randomImage()
+			
+	# 페이지 컴포넌트는 스내핑을 한다.
+	hotImage = new PageComponent
+		y: Align.bottom(-100)
+		width: screen.width
+		height: 150
+		backgroundColor: 'white'
+		scrollVertical: false
 		
-# 페이지 컴포넌트는 스내핑을 한다.
-hotImage = new PageComponent
-	y: Align.bottom(-100)
-	width: screen.width
-	height: 150
-	backgroundColor: 'white'
-	scrollVertical: false
-	
-for value in [0..20]
-	print value
-	box = new Layer
-		width: 150
-		height: 150
-		borderRadius: 75
-		image: Utils.randomImage()
-	hotImage.addPage(box)
+	for value in [0..20]
+		print value
+		box = new Layer
+			width: 150
+			height: 150
+			borderRadius: 75
+			image: Utils.randomImage()
+		hotImage.addPage(box)
 	
 	
 ###
