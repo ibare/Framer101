@@ -25,8 +25,13 @@ Utils.delay 4, ->
 		height: 150
 		backgroundColor: 'white'
 		scrollVertical: false
-
 	
+	bestImage.children[0].onMove ->
+		if print bestImage.children[0].x < 0
+			bestImage.children[0].opacity = .3
+		else
+			bestImage.children[0].opacity = 1
+		
 	for value in [0..20]
 		print value
 		box = new Layer
