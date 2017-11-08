@@ -13,11 +13,12 @@ progress.animate
 	options: 
 		time: 2
 		curve: Bezier.linear
+		repeat: 2
 
-Utils.delay 2, ->
+Utils.delay 4, ->
 	progress.visible = false
 	
-	# 스크롤 컴포넌트는 좌라락~~스크롤 할때 쓴다.
+# 스크롤 컴포넌트는 좌라락~~스크롤 할때 쓴다.
 	bestImage = new ScrollComponent
 		y: Align.top(200)
 		width: screen.width
