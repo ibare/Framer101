@@ -1,3 +1,4 @@
+Screen.backgroundColor = "white"
 
 # 페이지 컴포넌트 정의
 myPage = new PageComponent
