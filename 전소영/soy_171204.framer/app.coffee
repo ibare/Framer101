@@ -1,3 +1,39 @@
+pageComp1 = new PageComponent
+	width: screen.width
+	height: screen.height
+	scrollHorizontal: false
+	
+main_02 = new Layer
+	width: 375
+	height: 667
+	image: "images/main_02.jpg"
+	
+main_03 = new Layer
+	width: 375
+	height: 667
+	image: "images/main_03.jpg"
+
+main_01_2xD = new Layer
+	width: 375
+	height: 667
+	image: "images/main_01@2x.jpg"
+	
+###
+main_02.parent = pageComp1.content
+main_03.parent = pageComp1.content
+main_01_2xD.parent = pageComp1.content
+###
+
+pageComp1.addPage(main_01_2xD);
+pageComp1.addPage(main_02,"bottom");
+pageComp1.addPage(main_03, "bottom");
+
+
+	
+		
+		
+	
+###
 Screen.backgroundColor = "white"
 
 # 페이지 컴포넌트 정의
@@ -41,6 +77,12 @@ Utils.delay 4, ->
 close.onClick (event, layer) ->
 	appDown.visible = false
 	close.visible = false
+###
+
+
+
+
+
 
 
 
