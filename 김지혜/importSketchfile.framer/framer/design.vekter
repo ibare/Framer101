@@ -1,0 +1,75 @@
+{
+  "version" : 12,
+  "root" : {
+    "id" : "hiR\/qw~z",
+    "__class" : "CanvasNode",
+    "parentid" : null,
+    "children" : [
+      {
+        "rotation" : 0,
+        "blurType" : "layer",
+        "__class" : "OvalNode",
+        "id" : "EmS]c3VA",
+        "saturateEnabled" : 0,
+        "fillColor" : "rgba(0,170,255,0.5)",
+        "aspectRatioLocked" : true,
+        "grayscale" : 0,
+        "hueRotateEnabled" : 0,
+        "widthFactor" : null,
+        "borderColor" : "#222",
+        "clip" : false,
+        "opacity" : 1,
+        "left" : 114,
+        "locked" : false,
+        "fillGradient" : {
+          "end" : "rgba(0,0,0,0)",
+          "alpha" : 1,
+          "angle" : 0,
+          "__class" : "LinearGradient",
+          "start" : "black"
+        },
+        "contrastEnabled" : 0,
+        "blendingMode" : "normal",
+        "invert" : 0,
+        "boxShadows" : [
+
+        ],
+        "centerAnchorX" : 0,
+        "blurEnabled" : 0,
+        "fillType" : "color",
+        "sepia" : 0,
+        "children" : [
+
+        ],
+        "fillEnabled" : true,
+        "parentid" : "hiR\/qw~z",
+        "brightnessEnabled" : 0,
+        "exportOptions" : [
+
+        ],
+        "name" : "aa",
+        "saturate" : 100,
+        "height" : 175,
+        "borderStyle" : "solid",
+        "borderWidth" : 1,
+        "top" : 43,
+        "borderEnabled" : 0,
+        "constraintsLocked" : false,
+        "right" : null,
+        "visible" : true,
+        "centerAnchorY" : 0,
+        "contrast" : 100,
+        "grayScaleEnabled" : 0,
+        "hueRotate" : 0,
+        "heightFactor" : null,
+        "targetName" : "aa",
+        "bottom" : null,
+        "blur" : 12,
+        "invertEnabled" : 0,
+        "sepiaEnabled" : 0,
+        "width" : 175,
+        "brightness" : 100
+      }
+    ]
+  }
+}

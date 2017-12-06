@@ -2,11 +2,11 @@
   "orientation" : 0,
   "updateDelay" : 0.3,
   "designModeSelected" : 0,
-  "cachedDeviceHeight" : 720,
+  "cachedDeviceHeight" : 1440,
   "contentScale" : 1,
-  "cachedDeviceWidth" : 1280,
+  "cachedDeviceWidth" : 2560,
   "fullScreen" : false,
-  "deviceType" : "sony-w85Oc",
+  "deviceType" : "apple-imac",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
     "Filters" : false
@@ -14,7 +14,7 @@
   "projectId" : "F1C16BA8-FFCF-402E-8C3F-C1821B7C3D10",
   "deviceOrientation" : 0,
   "selectedHand" : "",
-  "showBezel" : 0,
+  "showBezel" : false,
   "foldedCodeRanges" : [
 
   ],
